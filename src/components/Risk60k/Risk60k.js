@@ -76,7 +76,7 @@ const Risk60k = () => {
 
     ]
     return (
-        <Table responsive striped hover>
+        <Table responsive hover>
             <thead>
                 <tr>
                     <th>Program Level</th>

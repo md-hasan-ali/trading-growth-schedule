@@ -42,7 +42,7 @@ ul.currency-menu li a {
     font-size: 22px;
     border: 2px solid #6CD2F7;
     padding: 6px 30px;
-    border-radius: 15px;
+    border-radius: 12px;
     font-weight: 600;
     margin-left: 20px;
     display: inline-block;
@@ -56,6 +56,11 @@ ul.currency-menu li a:focus {
   background: #6CD2F7;
   color:#fff;
 }
+ul.currency-menu h4 {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  color:#383F56;
+}
 ul.currency-menu img {
   max-width: 100%;
   height: auto;
@@ -66,7 +71,11 @@ ul.currency-menu img {
 ul.growth-menu {
   list-style: none;
 }
-
+ul.growth-menu h4 {
+  padding-left: 16px;
+  padding-bottom: 10px;
+  color:#383F56;
+}
 ul.growth-menu li a {
   text-decoration: none;
   font-size: 22px;
@@ -76,15 +85,17 @@ ul.growth-menu li a {
   padding: 6px 15px;
   margin-left: 15px;
   display: inline-block;
-  border-radius: 15px;
+  border-radius: 12px;
 }
 
 tbody, td {
   border-color: gray !important;
   border-style: solid !important;
-  border-width: 2px !important;
+  border: 0px !important;
 }
-
+table.table, tr,td{
+  border: 1px solid gray !important;
+}
 
 @media only screen and (max-width:900px) {
   .trader-menu button {
@@ -96,4 +107,19 @@ tbody, td {
   ul.growth-menu li a {
     margin-bottom: 12px;
   }
+}
+@media only screen and (max-width:480px) {
+  ul.currency-menu li a {
+    padding: 6px 4px;
+    transition: .5s;
+}
+ul.currency-menu li a:first-child {
+  margin-left: 0;
+}
+ul.currency-menu h4 {
+  padding-left: 0px;
+}
+.trader-menu {
+  border-right: none;
+}
 }

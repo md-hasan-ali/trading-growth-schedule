@@ -23,6 +23,7 @@ const Navigation = () => {
                 <div className="row">
                     <div className="col-lg-7">
                         <ul className='currency-menu'>
+                            <h4>Currency</h4>
                             <li>
                                 <NavLink onClick={handleGBP} to=''>
                                     <img src={gbpImg} alt="" /> GBP
@@ -38,6 +39,7 @@ const Navigation = () => {
                     </div>
                     <div className="col-lg-5">
                         <ul className='growth-menu'>
+                            <h4>Low Risk</h4>
                             <li>
                                 <NavLink to='/' className={(navInfo) => navInfo.isActive ? classes.active : ''}>
                                     Low Risk
