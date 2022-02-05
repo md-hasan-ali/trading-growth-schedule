@@ -11,7 +11,7 @@ const TradingGrowth = () => {
                 <div className="row">
                     <div className="col-md-3">
                         <div className="trader-menu">
-                            <Link to='/'>
+                            <Link to='/risk90'>
                                 <button>90k RISK MANAGER FOUND TRADER</button>
                             </Link>
                             <Link to='/risk60'>
