@@ -7,6 +7,8 @@ import {
 } from "react-router-dom";
 import TradingGrowth from './components/Trading-growth-main-component/TradingGrowth';
 import Risk40 from './components/Risk40k/Risk40';
+import Risk10k from './components/Risk14k/Risk14k';
+import Risk60k from './components/Risk60k/Risk60k';
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
         <Routes>
           <Route path='/' element={<TradingGrowth></TradingGrowth>}>
             <Route path='/' element={<Risk40></Risk40>}></Route>
+            <Route path='risk14' element={<Risk10k></Risk10k>}></Route>
             <Route path='risk40' element={<Risk40></Risk40>}></Route>
+            <Route path='risk60' element={<Risk60k></Risk60k>}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
