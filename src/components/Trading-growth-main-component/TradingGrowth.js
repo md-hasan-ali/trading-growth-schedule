@@ -1,6 +1,7 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
+import classes from '../styles/Header.module.css'
 
 const TradingGrowth = () => {
     return (
@@ -13,18 +14,18 @@ const TradingGrowth = () => {
                 <div className="row">
                     <div className="col-md-3">
                         <div className="trader-menu">
-                            <Link to='risk90'>
-                                <button>90k RISK MANAGER FOUND TRADER</button>
-                            </Link>
-                            <Link to='risk60'>
-                                <button>60k RISK MANAGER FOUND TRADER</button>
-                            </Link>
-                            <Link to='risk40'>
-                                <button>40k RISK MANAGER FOUND TRADER</button>
-                            </Link>
-                            <Link to='risk14'>
-                                <button>14k RISK MANAGER FOUND TRADER</button>
-                            </Link>
+                            <NavLink to='risk90' className={(navInfo) => navInfo?.isActive ? classes.active1 : ''}>
+                                <button>90k RISK MANAGER</button>
+                            </NavLink>
+                            <NavLink to='risk60' className={(navInfo) => navInfo?.isActive ? classes.active1 : ''}>
+                                <button>60k RISK MANAGER</button>
+                            </NavLink>
+                            <NavLink to='risk40' className={(navInfo) => navInfo?.isActive ? classes.active1 : ''}>
+                                <button>40k RISK MANAGER</button>
+                            </NavLink>
+                            <NavLink to='risk14' className={(navInfo) => navInfo?.isActive ? classes.active1 : ''}>
+                                <button>14k RISK MANAGER</button>
+                            </NavLink>
                         </div>
                     </div>
                     <div className="col-md-9">

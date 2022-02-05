@@ -14,16 +14,16 @@ const Aggressive = () => {
                     <div className="col-md-3">
                         <div className="trader-menu">
                             <Link to='aggressive90'>
-                                <button>90k AGGRESSIVE FOUND TRADER</button>
+                                <button>90k AGGRESSIVE</button>
                             </Link>
                             <Link to='aggressive60'>
-                                <button>60k AGGRESSIVE FOUND TRADER</button>
+                                <button>60k AGGRESSIVE</button>
                             </Link>
                             <Link to='aggressive40'>
-                                <button>40k AGGRESSIVE FOUND TRADER</button>
+                                <button>40k AGGRESSIVE</button>
                             </Link>
                             <Link to='aggressive14'>
-                                <button>14k AGGRESSIVE FOUND TRADER</button>
+                                <button>14k AGGRESSIVE</button>
                             </Link>
                         </div>
                     </div>

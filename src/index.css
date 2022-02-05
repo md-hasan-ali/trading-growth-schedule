@@ -25,11 +25,11 @@ code {
 }
 .trader-menu {
   border-right: 2px solid gray;
+  margin-right: 25px;
 }
 .trader-menu a button:focus {
-  color: #6CD2F7;
-  border-right: 3px solid #6CD2F7;
-  margin-right: -3px;
+  color:#6CD2F7;
+  
 }
 
 /* Navigation  */
@@ -98,9 +98,6 @@ table.table, tr,td{
 }
 
 @media only screen and (max-width:900px) {
-  .trader-menu button {
-    font-size: 20px;
-  } 
   ul.currency-menu li a {
     margin-bottom: 12px;
   }
@@ -109,6 +106,12 @@ table.table, tr,td{
   }
 }
 @media only screen and (max-width:480px) {
+  .trader-menu {
+    border-right: none;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
   ul.currency-menu li a {
     padding: 6px 4px;
     transition: .5s;
@@ -118,8 +121,5 @@ ul.currency-menu li a:first-child {
 }
 ul.currency-menu h4 {
   padding-left: 0px;
-}
-.trader-menu {
-  border-right: none;
 }
 }

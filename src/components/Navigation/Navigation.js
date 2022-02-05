@@ -25,7 +25,7 @@ const Navigation = () => {
                         <ul className='currency-menu'>
                             <h4>Currency</h4>
                             <li>
-                                <NavLink onClick={handleGBP} to=''>
+                                <NavLink style={{ background: '#6CD2F7', color: '#fff' }} onClick={handleGBP} to=''>
                                     <img src={gbpImg} alt="" /> GBP
                                 </NavLink>
                                 <NavLink to='' >
