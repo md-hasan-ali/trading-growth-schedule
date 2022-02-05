@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 
-const TradingGrowth = () => {
+const Aggressive = () => {
     return (
         <div className='trading-growth-schedule my-5'>
             <div className="container">
@@ -13,17 +13,17 @@ const TradingGrowth = () => {
                 <div className="row">
                     <div className="col-md-3">
                         <div className="trader-menu">
-                            <Link to='/risk90'>
-                                <button>90k RISK MANAGER FOUND TRADER</button>
+                            <Link to='aggressive90'>
+                                <button>90k AGGRESSIVE FOUND TRADER</button>
                             </Link>
-                            <Link to='/risk60'>
-                                <button>60k RISK MANAGER FOUND TRADER</button>
+                            <Link to='aggressive60'>
+                                <button>60k AGGRESSIVE FOUND TRADER</button>
                             </Link>
-                            <Link to='/risk40'>
-                                <button>40k RISK MANAGER FOUND TRADER</button>
+                            <Link to='aggressive40'>
+                                <button>40k AGGRESSIVE FOUND TRADER</button>
                             </Link>
-                            <Link to='/risk14'>
-                                <button>14k RISK MANAGER FOUND TRADER</button>
+                            <Link to='aggressive14'>
+                                <button>14k AGGRESSIVE FOUND TRADER</button>
                             </Link>
                         </div>
                     </div>
@@ -36,4 +36,4 @@ const TradingGrowth = () => {
     );
 };
 
-export default TradingGrowth;
+export default Aggressive;

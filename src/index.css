@@ -19,6 +19,7 @@ code {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 16px;
+  text-align: left;
 }
 
 .trader-menu {
@@ -26,4 +27,42 @@ code {
 }
 .trader-menu a button:focus {
   color: #6CD2F7;
+}
+/* Navigation  */
+
+ul.currency-menu {
+  list-style: none;
+}
+ul.currency-menu li a {
+    text-decoration: none;
+    color:#383F56;
+    font-size: 22px;
+    border: 2px solid #6CD2F7;
+    padding: 8px 30px;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+    display: inline-block;
+}
+ul.currency-menu img {
+  max-width: 100%;
+  height: auto;
+  width: 28px;
+  height: 28px;
+  margin-top: -4px;
+}
+ul.growth-menu {
+  list-style: none;
+}
+
+ul.growth-menu li a {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 600;
+  color: #383F56;
+  border: 2px solid #6CD2F7;
+  padding: 8px 15px;
+  margin-left: 15px;
+  display: inline-block;
+  border-radius: 15px;
 }
