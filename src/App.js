@@ -14,7 +14,7 @@ import Aggressive from './components/Aggressive/Aggressive';
 import Aggressive14k from './components/Aggressive14k/Aggressive14k';
 import Aggressive40 from './components/Aggressive40/Aggressive40';
 import Aggressive60k from './components/Aggressive60k/Aggressive60k';
-import Aggressive90k from './components/Aggressive90k/aggressive90k';
+import Aggressive90k from './components/Aggressive90k/Aggressive90k';
 
 function App() {
   return (
@@ -33,7 +33,7 @@ function App() {
             <Route path='aggressive14' element={<Aggressive14k></Aggressive14k>} />
             <Route path='aggressive40' element={<Aggressive40></Aggressive40>} />
             <Route path='aggressive60' element={<Aggressive60k></Aggressive60k>} />
-            <Route path='aggressive90' element={<Aggressive60k></Aggressive60k>} />
+            <Route path='aggressive90' element={<Aggressive90k></Aggressive90k>} />
           </Route>
         </Routes>
       </BrowserRouter>
