@@ -86,7 +86,7 @@ const Aggressive14k = () => {
 
     ]
     return (
-        <Table responsive hover>
+        <Table responsive bordered hover>
             <thead>
                 <tr>
                     <th>Program Level</th>

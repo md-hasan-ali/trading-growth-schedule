@@ -104,9 +104,12 @@ tbody, td {
   vertical-align: bottom;
   text-align: center;
 }
-table.table, tr,td{
-  border: 1px solid gray !important;
-  text-align: center;
+table.table, td, tr {
+	border: 1px solid #E4E6E8 !important;
+	text-align: center;
+}
+tr:hover {
+	background-color: #F3FDFE;
 }
 
 @media only screen and (max-width:900px) {
@@ -115,6 +118,13 @@ table.table, tr,td{
   }
   ul.growth-menu li a {
     margin-bottom: 12px;
+  }
+  .currency-menu {
+    text-align: center;
+  }
+  
+  .growth-menu {
+    text-align: center;
   }
 }
 @media only screen and (max-width:480px) {

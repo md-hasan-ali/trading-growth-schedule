@@ -25,11 +25,11 @@ const Navigation = () => {
                         <ul className='currency-menu'>
                             <h4>Currency</h4>
                             <li>
-                                <NavLink style={{ background: '#6CD2F7', color: '#fff' }} onClick={handleGBP} to=''>
-                                    <img src={gbpImg} alt="" /> GBP
+                                <NavLink onClick={handleGBP} to=''>
+                                    <img src={usdImg} alt="" /> USD
                                 </NavLink>
                                 <NavLink to='' >
-                                    <img src={usdImg} alt="" /> USD
+                                    <img src={gbpImg} alt="" /> GBP
                                 </NavLink>
                                 <NavLink to='' onClick={handleEuro}>
                                     <img src={euroImg} alt="" /> EURO
