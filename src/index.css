@@ -20,18 +20,19 @@ code {
   color: #383F56;
   font-size: 22px;
   font-weight: 700;
-  margin-bottom: 16px;
+  padding-bottom: 16px;
   text-align: left;
 }
-
 .trader-menu {
   border-right: 2px solid gray;
 }
 .trader-menu a button:focus {
   color: #6CD2F7;
+  border-right: 3px solid #6CD2F7;
+  margin-right: -3px;
 }
-/* Navigation  */
 
+/* Navigation  */
 ul.currency-menu {
   list-style: none;
 }
