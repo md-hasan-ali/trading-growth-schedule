@@ -7,16 +7,18 @@ code {
 }
 
 .title h2 {
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 700;
-  color:#6CD2F7;
+  background: -webkit-linear-gradient(20deg,#6CD2F7, #3B66B1);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .trader-menu button {
   border: none;
   background: none;
   color: #383F56;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   margin-bottom: 16px;
   text-align: left;
@@ -38,11 +40,20 @@ ul.currency-menu li a {
     color:#383F56;
     font-size: 22px;
     border: 2px solid #6CD2F7;
-    padding: 8px 30px;
+    padding: 6px 30px;
     border-radius: 15px;
     font-weight: 600;
     margin-left: 20px;
     display: inline-block;
+    transition: .5s;
+}
+ul.currency-menu li a:hover {
+  background: #6CD2F7;
+  color:#fff;
+}
+ul.currency-menu li a:focus {
+  background: #6CD2F7;
+  color:#fff;
 }
 ul.currency-menu img {
   max-width: 100%;
@@ -61,8 +72,27 @@ ul.growth-menu li a {
   font-weight: 600;
   color: #383F56;
   border: 2px solid #6CD2F7;
-  padding: 8px 15px;
+  padding: 6px 15px;
   margin-left: 15px;
   display: inline-block;
   border-radius: 15px;
+}
+
+tbody, td {
+  border-color: gray !important;
+  border-style: solid !important;
+  border-width: 2px !important;
+}
+
+
+@media only screen and (max-width:900px) {
+  .trader-menu button {
+    font-size: 20px;
+  } 
+  ul.currency-menu li a {
+    margin-bottom: 12px;
+  }
+  ul.growth-menu li a {
+    margin-bottom: 12px;
+  }
 }

@@ -75,7 +75,7 @@ const Aggressive40 = () => {
         }
     ]
     return (
-        <Table striped bordered hover>
+        <Table responsive striped hover>
             <thead>
                 <tr>
                     <th>Program Level</th>
@@ -88,7 +88,7 @@ const Aggressive40 = () => {
                 </tr>
             </thead>
             {aggressives14.map((singleAggressive) =>
-                <tbody>
+                <tbody key={singleAggressive?.id}>
                     <tr>
                         <td>{singleAggressive?.Program_Level}</td>
                         <td>{singleAggressive?.Initial_Balance}</td>

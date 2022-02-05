@@ -13,16 +13,16 @@ const TradingGrowth = () => {
                 <div className="row">
                     <div className="col-md-3">
                         <div className="trader-menu">
-                            <Link to='/risk90'>
+                            <Link to='risk90'>
                                 <button>90k RISK MANAGER FOUND TRADER</button>
                             </Link>
-                            <Link to='/risk60'>
+                            <Link to='risk60'>
                                 <button>60k RISK MANAGER FOUND TRADER</button>
                             </Link>
-                            <Link to='/risk40'>
+                            <Link to='risk40'>
                                 <button>40k RISK MANAGER FOUND TRADER</button>
                             </Link>
-                            <Link to='/risk14'>
+                            <Link to='risk14'>
                                 <button>14k RISK MANAGER FOUND TRADER</button>
                             </Link>
                         </div>

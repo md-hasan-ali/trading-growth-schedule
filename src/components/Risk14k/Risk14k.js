@@ -85,7 +85,7 @@ const Risk10k = () => {
         },
     ]
     return (
-        <Table striped bordered hover>
+        <Table responsive striped hover>
             <thead>
                 <tr>
                     <th>Program Level</th>
@@ -98,7 +98,7 @@ const Risk10k = () => {
                 </tr>
             </thead>
             {risks14.map((risk) =>
-                <tbody>
+                <tbody key={risk?.id}>
                     <tr>
                         <td>{risk?.Program_Level}</td>
                         <td>{risk?.Initial_Balance}</td>
