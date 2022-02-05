@@ -1,13 +1,29 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color:#6CD2F7;
+}
+
+.trader-menu button {
+  border: none;
+  background: none;
+  color: #383F56;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.trader-menu {
+  border-right: 2px solid gray;
+}
+.trader-menu a button:focus {
+  color: #6CD2F7;
 }
