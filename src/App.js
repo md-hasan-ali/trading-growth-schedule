@@ -28,12 +28,10 @@ function App() {
             <Route path='risk90' element={<Risk90k></Risk90k>}></Route>
           </Route>
           <Route path='/aggresive' element={<Aggressive></Aggressive>}>
-
             <Route path='aggressive14' element={<Aggressive14k></Aggressive14k>} />
             <Route path='aggressive40' element={<Aggressive40></Aggressive40>} />
             <Route path='aggressive60' element={<Aggressive60k></Aggressive60k>} />
             <Route path='aggressive90' element={<Aggressive60k></Aggressive60k>} />
-
           </Route>
         </Routes>
       </BrowserRouter>
